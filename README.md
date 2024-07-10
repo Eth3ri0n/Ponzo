@@ -1,33 +1,27 @@
-
 # Ponzo
-
-
-
 
 ## Screenshots
 
 ![Ponzo](https://via.placeholder.com/468x300?text=Coming+Soon)
 
-
 ## Tech Stack
 
-**Client:** HTML, CSS, JS, TailwindCSS
+**Client:** HTML, CSS, TailwindCSS
 
 **Local Server:** Node
-
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Eth3ri0n/Biarritz.git
+  git clone https://github.com/Eth3ri0n/Ponzo.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Biarritz
+  cd Ponzo
 ```
 
 Install dependencies
@@ -41,7 +35,7 @@ Start Tailwindcss
 ```bash
   npm run start
 ```
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
