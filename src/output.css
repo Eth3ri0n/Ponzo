@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Poppins, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -554,8 +554,106 @@ video {
   --tw-contain-style:  ;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\.\/\)\] {
+  background-image: url(./);
+}
+
+.bg-\[url\(\.\/ass\)\] {
+  background-image: url(./ass);
+}
+
+.bg-\[url\(\.\/assets\)\] {
+  background-image: url(./assets);
+}
+
+.bg-\[url\(\.\/assets\/images\)\] {
+  background-image: url(./assets/images);
+}
+
+.bg-\[url\(\.\/assets\/images\/\)\] {
+  background-image: url(./assets/images/);
+}
+
+.bg-\[url\(\.\/assets\/images\/cry\)\] {
+  background-image: url(./assets/images/cry);
+}
+
+.bg-\[url\(\.\/assets\/images\/cryp\)\] {
+  background-image: url(./assets/images/cryp);
+}
+
+.bg-\[url\(\.\/assets\/images\/crypto\)\] {
+  background-image: url(./assets/images/crypto);
+}
+
+.bg-\[url\(\.\/assets\/images\/cryptobg\)\] {
+  background-image: url(./assets/images/cryptobg);
+}
+
+.bg-\[url\(\.\/assets\/images\/cryptobg\.jpeg\)\] {
+  background-image: url(./assets/images/cryptobg.jpeg);
+}
+
+.bg-\[url\(\.\/assets\/imges\/cryptobg\.jpeg\)\] {
+  background-image: url(./assets/imges/cryptobg.jpeg);
+}
+
+.bg-\[url\(\.\/assets\/img\/cryptobg\.jpeg\)\] {
+  background-image: url(./assets/img/cryptobg.jpeg);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-2 {
@@ -563,20 +661,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
   font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
 }
