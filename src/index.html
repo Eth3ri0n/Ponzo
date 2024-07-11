@@ -30,8 +30,85 @@
         <h2 class="ml-2 text-xl font-bold">Ponzo</h2>
       </header>
       <div
-        class="flex-auto bg-[url(./assets/img/cryptobg.jpeg)] bg-cover"
-      ></div>
+        class="flex flex-auto items-center justify-center bg-[url(./assets/img/cryptobg.jpeg)] bg-cover"
+      >
+        <div
+          class="flex h-[800px] max-w-[1000px] flex-auto border-2 border-black bg-white"
+        >
+          <div class="flex-auto p-12">
+            <h1 class="mb-4 text-2xl font-medium">
+              Let's talk about your savings
+            </h1>
+            <h3 class="mb-4 text-lg text-slate-700">
+              We double your investment every year, without any risk.
+            </h3>
+            <form action="#" class="grid grid-cols-2 gap-6">
+              <div class="flex flex-col gap-y-1">
+                <label for="firstname" class="text-sm font-bold"
+                  >First name</label
+                ><input type="text" id="firstname" class="rounded" />
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label for="lastname" class="text-sm font-bold">Last name</label
+                ><input type="text" id="lastname" class="rounded" />
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label for="email" class="text-sm font-bold">E-mail</label
+                ><input type="email" id="email" class="rounded" autocomplete="email" />
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label for="phone" class="text-sm font-bold">Phone</label
+                ><input type="tel" id="phone" class="rounded" autocomplete="tel" />
+              </div>
+              <div class="col-span-2 flex flex-col gap-y-1">
+                <h4 class="mb-4 text-sm font-bold">
+                  Estimation of your capital
+                </h4>
+                <label for="25"
+                  ><input
+                    type="radio"
+                    name="capital"
+                    id="25"
+                    class="mr-2 text-black"
+                  /><span>Less than 25000&dollar;</span></label
+                >
+                <label for="25-50"
+                  ><input
+                    type="radio"
+                    name="capital"
+                    id="25-50"
+                    class="mr-2 text-black"
+                  /><span>Between 25000 and 50000&dollar;</span></label
+                >
+                <label for="50"
+                  ><input
+                    type="radio"
+                    name="capital"
+                    id="50"
+                    class="mr-2 text-black"
+                  /><span>More than 50000&dollar;</span></label
+                >
+              </div>
+              <div class="col-span-2 flex flex-col gap-y-1">
+                <label for="message" class="text-sm font-bold">Message</label>
+                <textarea rows="5" cols="30" id="message"></textarea>
+              </div>
+              <button
+                class="col-span-2 rounded bg-blue-500 py-2 text-center font-medium text-white shadow-xl transition-colors hover:bg-blue-600 active:bg-blue-700"
+              >
+                Entrust us with your money !
+              </button>
+              <p class="col-span-2 text-xs">
+                By submitting this form, you agree to all of our
+                <a href="#" class="font-bold">Terms of Use</a>.
+              </p>
+            </form>
+          </div>
+          <div
+            class="basis-72 bg-[url(./assets/img/bitcoin.jpeg)] bg-cover"
+          ></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
