@@ -765,20 +765,12 @@ select {
   margin-right: 0.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
-}
-
-.h-\[800px\] {
-  height: 800px;
 }
 
 .h-screen {
@@ -791,10 +783,6 @@ select {
 
 .flex-auto {
   flex: 1 1 auto;
-}
-
-.basis-72 {
-  flex-basis: 18rem;
 }
 
 .basis-32 {
@@ -856,14 +844,6 @@ select {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\.\/assets\/images\/bitcoin\.jpeg\)\] {
-  background-image: url(./assets/images/bitcoin.jpeg);
-}
-
-.bg-\[url\(\.\/assets\/images\/cryptobg\.jpeg\)\] {
-  background-image: url(./assets/images/cryptobg.jpeg);
-}
-
 .bg-\[url\(\.\/assets\/img\/bitcoin\.jpeg\)\] {
   background-image: url(./assets/img/bitcoin.jpeg);
 }
@@ -880,20 +860,12 @@ select {
   background-position: center;
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-4 {
@@ -928,11 +900,6 @@ select {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -997,12 +964,33 @@ select {
     padding: 3rem;
   }
 
-  .sm\:p-6 {
-    padding: 1.5rem;
-  }
-
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:border-0 {
+    border-width: 0px;
+  }
+
+  .dark\:bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-gray-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-\[url\(\.\/assets\/img\/cryptobgdark\.jpeg\)\] {
+    background-image: url(./assets/img/cryptobgdark.jpeg);
+  }
+
+  .dark\:text-slate-200 {
+    --tw-text-opacity: 1;
+    color: rgb(226 232 240 / var(--tw-text-opacity));
   }
 }
