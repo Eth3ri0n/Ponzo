@@ -30,35 +30,45 @@
         <h2 class="ml-2 text-xl font-bold">Ponzo</h2>
       </header>
       <div
-        class="flex flex-auto items-center justify-center bg-[url(./assets/img/cryptobg.jpeg)] bg-cover"
+        class="flex flex-auto items-center justify-center bg-[url(./assets/img/cryptobg.jpeg)] bg-cover p-2 sm:p-12"
       >
         <div
-          class="flex h-[800px] max-w-[1000px] flex-auto border-2 border-black bg-white"
+          class="flex max-w-[1000px] flex-auto flex-col-reverse border-2 border-black bg-white sm:flex-row"
         >
-          <div class="flex-auto p-12">
+          <div class="flex-auto p-6 sm:p-12">
             <h1 class="mb-4 text-2xl font-medium">
               Let's talk about your savings
             </h1>
-            <h3 class="mb-4 text-lg text-slate-700">
+            <h3 class="mb-4 text-slate-700 sm:text-lg">
               We double your investment every year, without any risk.
             </h3>
             <form action="#" class="grid grid-cols-2 gap-6">
-              <div class="flex flex-col gap-y-1">
+              <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
                 <label for="firstname" class="text-sm font-bold"
                   >First name</label
                 ><input type="text" id="firstname" class="rounded" />
               </div>
-              <div class="flex flex-col gap-y-1">
+              <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
                 <label for="lastname" class="text-sm font-bold">Last name</label
                 ><input type="text" id="lastname" class="rounded" />
               </div>
-              <div class="flex flex-col gap-y-1">
+              <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
                 <label for="email" class="text-sm font-bold">E-mail</label
-                ><input type="email" id="email" class="rounded" autocomplete="email" />
+                ><input
+                  type="email"
+                  id="email"
+                  class="rounded"
+                  autocomplete="email"
+                />
               </div>
-              <div class="flex flex-col gap-y-1">
+              <div class="col-span-2 flex flex-col gap-y-1 sm:col-span-1">
                 <label for="phone" class="text-sm font-bold">Phone</label
-                ><input type="tel" id="phone" class="rounded" autocomplete="tel" />
+                ><input
+                  type="tel"
+                  id="phone"
+                  class="rounded"
+                  autocomplete="tel"
+                />
               </div>
               <div class="col-span-2 flex flex-col gap-y-1">
                 <h4 class="mb-4 text-sm font-bold">
@@ -105,7 +115,7 @@
             </form>
           </div>
           <div
-            class="basis-72 bg-[url(./assets/img/bitcoin.jpeg)] bg-cover"
+            class="basis-32 bg-[url(./assets/img/bitcoin.jpeg)] bg-cover bg-center sm:basis-72"
           ></div>
         </div>
       </div>
