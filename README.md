@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![Ponzo](https://via.placeholder.com/468x300?text=Coming+Soon)
+![Ponzo](Preview.png)
 
 ## Tech Stack
 
